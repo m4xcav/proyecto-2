@@ -1,0 +1,150 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* CSS HEADER */
+header{
+    width: 100%;
+    height: 73px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+header p{
+    width: 221px;
+    height: 59px;
+    margin: 0 auto;
+    text-align: center;
+    font: normal normal 500 50px/59px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+/* FIN CSS HEADER */
+/* CSS MAIN */
+#main{
+    width: 100%;
+    height: 727px;
+    background: transparent url('../img/bg-header.jpg') 0% 0% no-repeat padding-box;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+/* FIN CSS MAIN */
+/* CSS SECTION */
+section{
+    width: 100%;
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#contsection{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+section p{
+    width: 475px;
+    height: 197px;
+    text-align: left;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1; 
+    margin: 70px 0px 75px 150px;
+}
+section img{
+    width: 399px;
+    height: 237px;
+    background: transparent url('img/photo-1492963892107-740cd39d9ff3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 45px 150px 0px 0px;
+}
+/* FIN CSS SECTION */
+/* CSS CARACTERÍSTICAS */
+#caract{
+    width: 100%;
+    height: 348px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+}
+#pdiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#pdiv p{
+    width: 356px;
+    height: 47px;
+    text-align: center;
+    font: normal normal 500 40px/47px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 75px;
+}
+#icons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 50px 0px 74px 0px;
+}
+.info p{
+    width: 202px;
+    height: 30px;
+    text-align: center;
+    font: normal normal 300 25px/30px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+/* FIN CSS CARACTERÍSTICAS */
+/* CSS GALERIA */
+#galeria{
+    width: 100%;
+    max-width: 100%;
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+}
+#imgs{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+#imgs img{
+    margin-top: 73px;
+    width: 316px;
+    height: 202px;
+    opacity: 1;
+}
+/* FIN CSS GALERIA */
+/* FOOTER CSS */
+footer{
+    margin: 0px auto;
+    width: 100%;
+    height: 102px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+    text-align: center;
+}
+#textf{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+footer p{
+    width: 682px;
+    height: 24px;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 40px;
+}
+/* FIN FOOTER CSS */
